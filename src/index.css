@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.dashed {
+  stroke-dasharray: 4;
+}
+
+.graph-line.selected {
+  stroke-width: 3;
+}
+
+.graph-selected .graph-line{
+  stroke-opacity: 0.5;
+}
+.graph-selected .graph-line.selected {
+  stroke-opacity: 1;
+}
+
+.graph-component{
+  position: relative;
+}
+.graph-component .popup{
+  position: absolute;
+  margin-left: 10px;
+  padding: 10px 15px;
+  border:1px solid #e7e7e6;
+  background: #ffffff;
+  opacity: 0.9;
+}
