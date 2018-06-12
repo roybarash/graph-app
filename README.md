@@ -4,6 +4,7 @@ To run:
 
 2. cd to project's folder
 
-3. run:
-		npm install
-		npm start
+3. Run the following lines:
+
+4. npm install
+5. npm start
